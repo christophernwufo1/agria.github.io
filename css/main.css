@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+	max-width: 100%;
+}
+
+.hero-bg{
+    background: url(../Images/holder3.jpg);
+    color:rgb(9, 19, 10);
+	text-align: center;
+	padding:3em;
+	margin: .5em;
+}
+
+.top{
+	background-color: none;
+}
+
+.top img{
+	float:left;
+	margin-top: .5px;
+}
+
+
+
+.input-box{
+	margin-right: .5em;
+	border-radius: 10px;
+	height: 1rem;
+	float:right;
+}
+
+
+.menu-block{
+	background-color: rgb(7, 7, 7);
+	margin-block-end: 4%;
+	height: 50px;
+	margin-top: 10em;
+	align-content: center;
+}
+
+nav ul{
+	padding-left: 12em; /* Remove the default padding. */
+  	list-style: none;
+  	/* I want everything inside the nav bar centered, thus: */
+  	text-align: center;
+	padding-right: 2em;
+}
+
+
+
+nav ul li {
+	list-style-type: none;
+	display:inline block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+	align-content: center;
+}
+
+nav ul li a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+nav ul li a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+
+.login-btn{
+	display:inline flex;
+	padding:3px;
+	width:150px;
+	height: 30px;
+	transition: 1s;
+	cursor:pointer;
+	font-size: medium;
+	justify-content: center;
+	-webkit-tap-highlight-color: transparent;
+	border: 1px solid red;
+	color:#009;
+	
+	
+}
+
+
+.noselect {
+  	-webkit-touch-callout: none;
+    	-webkit-user-select: none;
+     	-khtml-user-select: none;
+       	-moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.login-btn a{
+	display:block;
+	background-color: #fff;
+	color: #009;
+}
+
+.login-btn a:hover {
+  	background-color: #009;
+	color: #fff;
+}
+
+.intro{
+	background-image: url(../Images/holder2.jpg);
+	padding-bottom: 7em;
+	padding-top: 5em;
+}
+
+.intro h1{
+	color:#fff
+}
+
+h1{
+	font-size: 2.7rem;
+	display: inline-flex;
+}
+
+.intro p{
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.2rem;
+	padding-top: .5em;
+	padding-bottom: 2em;
+}
+
+.form-container{
+	padding-bottom: 2em;
+	padding-top: 4em;
+}
+
+label{
+	color:#fff;
+	font-size: 1.2rem;
+}
+
+.form-container button{
+	color:#fff;
+	border-radius: 10px;
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+	font-size: medium;
+	border: none;
+	outline: auto;
+}
+
+.register-btn{
+	background-color: red;
+	display:inline-block;
+	padding:3px;
+	width:150px;
+	height: 30px;
+	transition: 1s;
+	cursor:pointer;
+	font-size: medium;
+	justify-content: center;
+	-webkit-tap-highlight-color: transparent;
+	border: 1px solid red;
+}
+
+.registration-btn a{
+	display:block;
+	background-color: brown;
+	color: burlywood;
+}
+
+.registration-btn a:hover {
+  	background-color:burlywood;
+	color: brown;
+}
+
+.Try{
+	background-color: #009;
+	display:inline-block;
+	padding:3px;
+	width:150px;
+	height: 30px;
+	transition: 1s;
+	cursor:pointer;
+	font-size: medium;
+	justify-content: center;
+	-webkit-tap-highlight-color: transparent;
+	border: 1px solid red;
+}
+.Try a{
+	display:block;
+	background-color:blue;
+	color: aqua;
+}
+
+.Try a:hover {
+  	background-color: aqua;
+	color: blue;
+}
+
+.footer{
+	text-align: center;
+}
